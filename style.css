@@ -1,4 +1,3 @@
-/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -11,14 +10,12 @@ body {
     color: #333;
 }
 
-/* Container - keeps content centered and not too wide */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* Header & Navigation */
 .header {
     background: #2c3e50;
     color: white;
@@ -55,7 +52,6 @@ body {
     color: #3498db;
 }
 
-/* Hero Section - The big intro */
 .hero {
     background: linear-gradient(135deg, #382a93 0%, #69246a 100%);
     color: white;
@@ -101,7 +97,7 @@ body {
     box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
 
-/* Skills Section */
+
 .skills {
     padding: 4rem 0;
     background: #f8f9fa;
@@ -138,7 +134,7 @@ body {
     margin-bottom: 0.5rem;
 }
 
-/* Projects Section */
+
 .projects {
     padding: 4rem 0;
 }
@@ -171,7 +167,6 @@ body {
     text-decoration: underline;
 }
 
-/* Contact Section */
 .contact {
     padding: 4rem 0;
     background: #2c3e50;
@@ -203,7 +198,6 @@ body {
     background: #764ba2;
 }
 
-/* Footer */
 .footer {
     background: #1a252f;
     color: white;
@@ -211,7 +205,6 @@ body {
     padding: 2rem 0;
 }
 
-/* Responsive Design - Works on phones */
 @media (max-width: 768px) {
     .header .container {
         flex-direction: column;
@@ -225,4 +218,5 @@ body {
     .nav {
         gap: 1rem;
     }
+
 }
